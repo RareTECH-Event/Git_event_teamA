@@ -4,6 +4,7 @@ def main():
         print("1: メンバー1の1ゆーせー@53期")
         print("2: メンバー2のリョウ＠52期")
         print("3: メンバー3のたな@53期")
+        print("3: メンバー4のfuku@53期")
         print("q: 終了")
 
         choice = input("> ")
@@ -14,6 +15,8 @@ def main():
             print("よろしくお願いいたします！")
         elif choice == "3":
             print("時間かかってすみません")
+        elif choice == "4":
+            print("お疲れ様でした")
         elif choice == "q":
             print("プログラムを終了します。")
             break
