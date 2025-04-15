@@ -1,15 +1,15 @@
 def main():
     while True:
         print("選択してください：")
-        print("1: くぅ＠50期")
-        print("2: Moemi@50期")
-        print("3: おすし@50期")
+        print("1: メンバー1の名前")
+        print("2: メンバー2の名前")
+        print("3: メンバー3の名前")
         print("q: 終了")
 
         choice = input("> ")
 
         if choice == "1":
-            print("変更しました")
+            print("メンバー1のコメント")
         elif choice == "2":
             print("メンバー2のコメント")
         elif choice == "3":
@@ -22,4 +22,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
