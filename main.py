@@ -1,22 +1,19 @@
 def main():
     while True:
         print("選択してください：")
-        print("1: メンバー1の1ゆーせー@53期")
-        print("2: メンバー2のリョウ＠52期")
-        print("3: メンバー3のたな@53期")
-        print("3: メンバー4のfuku@53期")
+        print("1: メンバー1の名前")
+        print("2: メンバー2の名前")
+        print("3: メンバー3の名前")
         print("q: 終了")
 
         choice = input("> ")
 
         if choice == "1":
-            print("ハンズオン頑張ります！")
+            print("メンバー1のコメント")
         elif choice == "2":
-            print("よろしくお願いいたします！")
+            print("メンバー2のコメント")
         elif choice == "3":
-            print("時間かかってすみません")
-        elif choice == "4":
-            print("お疲れ様でした")
+            print("メンバー3のコメント")
         elif choice == "q":
             print("プログラムを終了します。")
             break
